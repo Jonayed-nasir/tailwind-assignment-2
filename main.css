@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .header {
+        @apply bg-white sticky top-0 z-50;
+    }
+
+    .nav {
+        @apply container mx-auto flex justify-between items-center py-4 px-2 md:px-0;
+    }
+
+    .nav-link {
+        @apply hover:text-[#F44335] transition-all text-lg;
+    }
+
+    .register-btn {
+        @apply bg-[#F44335] text-white md:px-4 md:py-2 px-2 py-1 rounded hover:bg-[#D32F2F] transition-all hover:scale-105 hover:translate-y-1;
+    }
+
+    .logo {
+        @apply w-fit object-contain h-10 md:h-14;
+    }
+}

@@ -22,4 +22,20 @@
     .logo {
         @apply w-fit object-contain h-10 md:h-14;
     }
+
+    .hero-section {
+        @apply bg-[url('image/Background.png')] bg-no-repeat bg-cover bg-center w-full h-screen;
+    }
+
+    .hero-main {
+        @apply flex flex-col justify-start pt-32 items-center space-y-5 md:space-y-9;
+    }
+
+    .hero-hed {
+        @apply text-center text-3xl md:text-5xl font-bold text-white tracking-[3px];
+    }
+
+    .hero-btn {
+        @apply bg-white text-[#F44335] rounded-full py-2 px-4 font-bold hover:bg-[#F44335] hover:text-black transition duration-300;
+    }
 }

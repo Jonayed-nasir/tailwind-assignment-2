@@ -94,4 +94,8 @@
     .creative-span {
         @apply col-span-12 md:col-span-6 lg:col-span-3 z-30 bg-white rounded-lg flex flex-col justify-center items-center py-10 text-center space-y-6 transition-all hover:scale-105 duration-300 cursor-pointer;
     }
+
+    .footer-main {
+        @apply container grid md:grid-cols-5 grid-cols-2 mx-auto space-y-5 mb-3;
+    }
 }

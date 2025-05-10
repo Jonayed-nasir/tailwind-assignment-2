@@ -74,4 +74,20 @@
     .mission-btn {
         @apply border-2 border-[#F44335] bg-white text-[#F44335] px-4 py-1.5 rounded-full hover:bg-[#F44335] hover:text-white transition duration-300 flex items-center space-x-2;
     }
+
+    .discover-grid {
+        @apply container mx-auto grid grid-cols-12 gap-5 space-y-6;
+    }
+
+    .discover-span {
+        @apply col-span-12 md:col-span-4 flex flex-col md:items-start text-center md:text-left items-center;
+    }
+
+    .discover-h1 {
+        @apply text-[11rem] absolute left-10 md:left-32 text-[#F44335] opacity-20;
+    }
+
+    .discover-hed {
+        @apply flex items-center space-x-8 relative;
+    }
 }

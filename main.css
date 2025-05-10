@@ -38,4 +38,20 @@
     .hero-btn {
         @apply bg-white text-[#F44335] rounded-full py-2 px-4 font-bold hover:bg-[#F44335] hover:text-black transition duration-300;
     }
+
+    .empower-section {
+        @apply container mx-auto grid grid-cols-12 gap-4 px-4 md:px-0;
+    }
+
+    .empower-span-1 {
+        @apply md:col-span-3 col-span-12 px-4 py-8 flex items-center justify-center md:justify-start;
+    }
+
+    .empower-span-2 {
+        @apply md:col-span-3 col-span-12 px-4 py-6 bg-[#2D3142] rounded shadow-lg shadow-[#999898] hover:scale-105 transition-all duration-300;
+    }
+
+    .empower-icon {
+        @apply w-12 h-12 bg-[#fff] rounded-full flex items-center justify-center;
+    }
 }

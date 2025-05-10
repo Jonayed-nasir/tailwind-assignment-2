@@ -90,4 +90,8 @@
     .discover-hed {
         @apply flex items-center space-x-8 relative;
     }
+
+    .creative-span {
+        @apply col-span-12 md:col-span-6 lg:col-span-3 z-30 bg-white rounded-lg flex flex-col justify-center items-center py-10 text-center space-y-6 transition-all hover:scale-105 duration-300 cursor-pointer;
+    }
 }
